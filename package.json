@@ -1,0 +1,27 @@
+{
+  "name": "trevala-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "firebase": "^10.8.0",
+    "gsap": "^3.12.5",
+    "lucide-vue-next": "^0.358.0",
+    "date-fns": "^3.5.0",
+    "leaflet": "^1.9.4",
+    "@vueuse/nuxt": "^10.9.0",
+    "@pinia/nuxt": "^0.5.1",
+    "vee-validate": "^4.12.6",
+    "@vee-validate/rules": "^4.12.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4"
+  }
+}
